@@ -15,7 +15,7 @@ $ npm install cached-function
 ## Usage
 
 ```js
-const cached = require('cached-function');
+const cached = require('@piuccio/cached-function');
 const fn = cached('./cache.json', async (url) {
   const { body } = await got(url);
   return body.slice(0, 100);
