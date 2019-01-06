@@ -1,6 +1,6 @@
 {
   "name": "cached-function",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Cache the response from any function to a file",
   "main": "index.js",
   "repository": {
