@@ -1,0 +1,29 @@
+{
+  "name": "cached-function",
+  "version": "0.0.0",
+  "description": "Cache the response from any function to a file",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/piuccio/cached-function.git"
+  },
+  "scripts": {
+    "lint": "eslint --ignore-path .gitignore --ignore-pattern flow-typed .",
+    "test": "jest --coverage",
+    "test:watch": "jest --watchAll",
+    "posttest": "npm run lint"
+  },
+  "keywords": [
+    "cache",
+    "async"
+  ],
+  "engines": {
+    "node": ">= 10"
+  },
+  "author": "Fabio Crisci",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "5.12.0",
+    "jest": "23.6.0"
+  }
+}
