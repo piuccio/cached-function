@@ -25,7 +25,7 @@ module.exports = (cacheFile, fn) => {
     }
     const result = await fn(first, ...others);
     cache[first] = result;
-    flush(cacheFile, cache);
+    await flush(cacheFile, cache);
     return result;
   };
   newFn.clear = async () => {
