@@ -23,7 +23,7 @@
   "author": "Fabio Crisci",
   "license": "MIT",
   "devDependencies": {
-    "eslint": "5.12.0",
-    "jest": "23.6.0"
+    "eslint": "5.15.3",
+    "jest": "24.5.0"
   }
 }
