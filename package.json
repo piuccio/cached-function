@@ -1,6 +1,6 @@
 {
   "name": "@piuccio/cached-function",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Cache the response from any function to a file",
   "main": "index.js",
   "repository": {
