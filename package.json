@@ -8,7 +8,7 @@
     "url": "git://github.com/piuccio/cached-function.git"
   },
   "scripts": {
-    "lint": "eslint --ignore-path .gitignore --ignore-pattern flow-typed .",
+    "lint": "npx eslint --ignore-path .gitignore .",
     "test": "jest --coverage",
     "test:watch": "jest --watchAll",
     "posttest": "npm run lint"
@@ -23,7 +23,6 @@
   "author": "Fabio Crisci",
   "license": "MIT",
   "devDependencies": {
-    "eslint": "6.8.0",
-    "jest": "25.2.4"
+    "jest": "26.4.2"
   }
 }
